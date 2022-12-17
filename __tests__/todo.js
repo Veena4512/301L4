@@ -119,7 +119,8 @@ describe("Todolist Test Suite", () => {
         s += list[i].title + " " + list[i].dueDate;
       }
     }
-    return s;
+    return s; 
+    
   };
 
   toDisplayableList(all);
